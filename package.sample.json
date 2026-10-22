@@ -1,0 +1,16 @@
+{
+  "name": "supply-chain-drill-manifest-sample",
+  "version": "0.0.0",
+  "private": true,
+  "description": "SIMULATED vulnerable manifest - supply-chain security drill scaffolding only, not a real project or installable manifest. References 'next' (npm) inside the vulnerable range for GHSA-673q-mjm6-r5xr.",
+  "drill": {
+    "advisory": "GHSA-673q-mjm6-r5xr",
+    "affectedPackage": "next",
+    "vulnerableVersionRange": ">= 16.0.0, <= 16.4.0",
+    "firstPatchedVersion": "16.4.1",
+    "note": "Scaffolding only: simulates a dependency pin inside the advisory's vulnerable range for remediation practice. Do not install."
+  },
+  "dependencies": {
+    "next": "16.4.0"
+  }
+}
